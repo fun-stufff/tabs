@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <ul class="tabs">
+        <!-- The data-* attribute is used to store custom data private to the page or application -->
+        <li data-tab-target="#leaf" class="tab">1</li>
+        <li data-tab-target="#earth" class="tab">2</li>
+        <li data-tab-target="#heart" class="tab">3</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="leaf" data-tab-content>
+            <img src="pic/leaf.jpg" alt="leaf">
+            <h1>Leaf</h1>
+        </div>
+        <div id="earth" data-tab-content>
+            <img src="pic/earth.jpg" alt="earth">
+            <h1>Earth</h1>
+        </div>
+        <div id="heart" data-tab-content>
+            <img src="pic/heart.jpg" alt="heart">
+            <h1>Heart</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+  <title>Tabs</title>
+</head>
+<body>
+  <ul class="tabs">
+    <li data-tab-target="#home" class="active tab">Home</li>
+    <li data-tab-target="#pricing" class="tab">Pricing</li>
+    <li data-tab-target="#about" class="tab">About</li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" data-tab-content class="active">
+      <h1>Home</h1>
+      <p>This is the home</p>
+    </div>
+    <div id="pricing" data-tab-content>
+      <h1>Pricing</h1>
+      <p>Some information on pricing</p>
+    </div>
+    <div id="about" data-tab-content>
+      <h1>About</h1>
+      <p>Let me tell you about me</p>
+    </div>
+  </div>
+</body>
+</html> -->
